@@ -64,7 +64,7 @@ main{
   background-color: #fff;
   border-radius: 30px;
   width: 300px;
-  border-style: solid;
+  /* box-shadow: 1px 1px 10px #080808 ; */
 }
 
 .accommodation-card img {
