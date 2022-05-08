@@ -1,66 +1,220 @@
+<!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Booki</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <title>Booki - Trouvez votre hébergement pour des vacances de rêve</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/d203598731.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font : Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div>
-      <!-- Header section -->
-      <header>
-        <!-- Logo section -->
-        <img src=" " alt=" " />
-        <!-- Navbar section -->
-        <nav>
-          <ul>
-            <li>Lien 1</li>
-            <li>Lien 1</li>
-          </ul>
-        </nav>
-      </header>
+    <!-- Header section -->
+    <header id="header">
+      <!-- Logo section -->
+      <a href="./index.html">
+        <div class="logo">
+          <img src="assets/img/logo/Booki.png" alt="Logo" /></div
+      ></a>
+      <!-- Navbar section -->
+      <nav class="menu">
+        <a href="#" title="h&eacute;b&eacute;rgement">H&eacute;b&eacute;rgements</a>
+        <a href="#" title="Activit&eacute;s">Activit&eacute;s</a>
+      </nav>
+    </header>
 
-      <!-- searching section -->
-      <div class="search"></div>
-
-      <!-- Main lodging section-->
-      <div>
-        <!-- lodging section -->
-        <div></div>
-        <!-- Popular section -->
-        <div></div>
+    <!-- searching section -->
+    <section id="search">
+      <h1>
+        Trouvez votre h&eacute;b&eacute;rgement pour des vacances de r&ecirc;ve
+      </h1>
+      <p>En plein centre ville ou en pleine nature</p>
+      <div class="form">
+        <form action="post">
+          <label for="location">
+            <i class="fa-solid fa-location-dot"></i>
+          </label>
+          <input
+            type="search"
+            name="location"
+            id="location"
+            value="Marseille, France"
+          />
+          <input type="submit" value="Rechercher" />
+        </form>
       </div>
+      <div class="filters">
+        <h2>Filtres</h2>
+        <div>
+          <i class="fa-solid fa-money-bill-wave"></i><span>Economique</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-child-reaching"></i><span>Familial</span>
+        </div>
+        <div><i class="fa-solid fa-heart"></i><span>Romantique</span></div>
+        <div>
+          <i class="fa-solid fa-dog"></i><span>Animaux autoris&eacute;s</span>
+        </div>
+      </div>
+      <div class="infos">
+        <i class="fa-solid fa-circle-info"></i>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
 
-      <!-- Main Activities section -->
-      <div></div>
+    <!-- Main Section -->
+    <main>
+      <!-- lodging section-->
+      <section id="accommodation-section">
+        <div class="accommodation-main">
+          <h2>H&eacute;b&eacute;rgements &agrave; Marseille</h2>
+          <div class="accommodation">
+            <div class="accommodation-card">
+              <img
+                src="assets/img/hebergements/4_small/marcus-loke-la-cannebiere.jpg"
+                alt="Auberge La Cannebi&egrave;re"
+              />
+              <h3>Auberge La Cannebi&egrave;re</h3>
+              <p>Nuit &agrave; partir de 25&euro;</p>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="accommodation-card">
+              <img
+                src="assets/img/hebergements/4_small/fred-kleber-hotel-du-port.jpg"
+                alt="H&ocirc;tel du port"
+              />
+              <h3>H&ocirc;tel du port</h3>
+              <p>Nuit &agrave; partir de 52&euro;</p>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="accommodation-card">
+              <img
+                src="assets/img/hebergements/4_small/reisetopia-hotel-les-mouettes.jpg"
+                alt="H&ocirc;tel Les Mouettes"
+              />
+              <h3>H&ocirc;tel Les Mouettes</h3>
+              <p>Nuit &agrave; partir de 76&euro;</p>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="accommodation">
+            <div class="accommodation-card">
+              <img
+                src="assets/img/hebergements/4_small/annie-spratt-hotel-de-la-mer.jpg"
+                alt="H&ocirc;tel de la mer"
+              />
+              <h3>H&ocirc;tel de la mer</h3>
+              <p>Nuit &agrave; partir de 46&euro;</p>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="accommodation-card">
+              <img
+                src="assets/img/hebergements/4_small/nicate-lee-auberge-le-panier.jpg"
+                alt="Auberge Le Panier"
+              />
+              <h3>Auberge Le Panier</h3>
+              <p>Nuit &agrave; partir de 23&euro;</p>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="accommodation-card">
+              <img
+                src="assets/img/hebergements/4_small/febrian-zakaria-chez-amina.jpg"
+                alt="H&ocirc;tel Chez Amina"
+              />
+              <h3>H&ocirc;tel Chez Amina</h3>
+              <p>Nuit &agrave; partir de 96&euro;</p>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <!-- Footer -->
+      <!-- Popular section -->
+      <section id="popular">
+        <aside>
+          populaire
+        </aside>
+      </section>
+    </main>
+      <!-- Activities section -->
+      <section id="activities"></section>
+
+
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Column 1 -->
       <div>
-        <!-- Column 1 -->
-        <div>
-          <h4></h4>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-        <!-- Column 2 -->
-        <div>
-          <h4></h4>
-          <ul>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-        <!-- Column 2 -->
-        <div>
-          <h4></h4>
-          <ul>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
+        <h4>A propos</h4>
+        <ul>
+          <li><a href="#" title="Fonctionnement du site">Fonctionnement du site</a></li>
+          <li>
+            <a href="#" title="Conditions g&eacute;n&eacute;rales de vente">Conditions g&eacute;n&eacute;rales de vente</a>
+          </li>
+          <li><a href="#" title="Donn&eacute;es et confidentialit&eacute;">Donn&eacute;es et confidentialit&eacute;</a></li>
+        </ul>
+      </div>
+      <!-- Column 2 -->
+      <div>
+        <h4>Nos H&eacute;b&eacute;rgements</h4>
+        <ul>
+          <li><a href="#" title="Charte qualit&eacute;">Charte qualit&eacute;</a></li>
+          <li><a href="#" title="Soumettre votre h&ocirc;tel">Soumettre votre h&ocirc;tel</a></li>
+        </ul>
+      </div>
+      <!-- Column 2 -->
+      <div>
+        <h4>Assistance</h4>
+        <ul>
+          <li><a href="#" title="Centre d'aide">Centre d'aide</a></li>
+          <li><a href="#" title="Nous contacter">Nous contacter</a></li>
+        </ul>
       </div>
     </div>
   </body>

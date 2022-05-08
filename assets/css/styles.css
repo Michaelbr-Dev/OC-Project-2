@@ -1,16 +1,131 @@
+/* -- Desktop -- */
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  max-width: 1440px;
+  margin: auto;
+}
 /* header */
-
+#header {
+  display: flex;
+  justify-content: space-between;
+}
 /*logo */
+.logo img{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 150px;
+}
 
 /* Navbar */
 
 /* search */
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px;
+  border-color: #f2f2f2;
+}
 
-/* content */
+.infos {
+  display: flex;
+  align-items: center;
+}
+/* Main */
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  
+/* Accommodation */
+#accommodation-section {
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  width: 73%;
+}
 
-/* lodging */
+.accommodation-main {
+  display: flex;
+  flex-direction: column;
+}
+.accommodation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-block-end: 30px;
+}
+
+.accommodation-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 30px;
+  width: 300px;
+  border-style: solid;
+}
+
+.accommodation-card img {
+  border-radius: 30px 30px 0 0;
+  margin: 5px 5px 0px 5px;
+  padding-bottom: 0px;
+  max-height: 150px;
+}
+
+.accommodation-card h3{
+  margin-left: 15px;
+  margin-block-start: 10px;
+  margin-block-end: 5px;
+}
+
+.accommodation-card p{
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-block-start: 0pxpx;
+  margin-block-end: 5px;
+}
+
+.star{
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #0065fc;
+}
 
 /* popular */
+#popular{
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  width: 23%;
+}
 
 /* Activities */
 
+/* Footer */
+#footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+}
+
+
+#footer a{
+  text-decoration: none;
+}
+#footer,
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+`@media screen and (max-width: 992px) {
+    main {
+        max-width: 992px;
+    }`
+    
+`@media screen and (max-width: 768px) {
+    main {
+        max-width: 768px;
+    }`
