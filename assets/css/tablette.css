@@ -1,0 +1,29 @@
+/* Tablet */
+body {
+  max-width: 992px;
+}
+
+/* filters */
+.filtersContainer {
+  flex-wrap: wrap;
+}
+
+/* places */
+#mainPlaces,
+#mainPopular {
+  width: 50%;
+}
+
+/* activities */
+.mainActivities {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.activityCardLarge {
+  width: 40%;
+}
+
+.activitiesCol {
+  width: 40%;
+}

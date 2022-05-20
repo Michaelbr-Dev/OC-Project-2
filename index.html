@@ -3,260 +3,398 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Booki - Trouvez votre h&eacute;b&eacute;rgement pour des vacances de r&ecirc;ve !</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <!-- Fontawesome-->
-    <script src="https://kit.fontawesome.com/d203598731.js" crossorigin="anonymous"></script>
+    <title>
+      Booki - Trouvez votre h&eacute;be;rgement pour des vacances de r&ecirc;ve
+      !
+    </title>
+    <meta
+      name="description"
+      content="Site de r&eacute;servation d'h&ocirc;tels"
+    />
 
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/tablette.css"
+      media="screen and (max-width: 992px)"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/mobile.css"
+      media="screen and (max-width: 768px)"
+    />
+
+    <!-- Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/d203598731.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
     <!-- header -->
     <header>
       <!-- logo -->
-      <div class="logo">
+      <div id="logo">
         <img src="assets/img/logo/Booki.png" alt="Logo Booki" />
       </div>
 
       <!-- navigation -->
       <nav>
         <ul>
-          <li><a href="#placeAnchor">h&eacute;b&eacute;rgements</a></li>
+          <li><a href="#placeAnchor">h&eacute;bergements</a></li>
           <li><a href="#activitiesAnchor">Activit&eacute;s</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- search -->
-    <section id="search">
-      <h2>Trouvez votre h&eacute;b&eacute;rgement pour des vacances de r&ecirc;ve !</h2>
-      <span>En plein centre ville ou en pleine nature</span>
-      <form class="searchBar" action="#" method="GET">
-        <div class="searchLocation">
-          <i class="fa-solid fa-location-dot"></i>
-        </div>
-        <input type="search" class="searchInput" placeholder="Marseille, France">
-        <button class="searchButton">
-          <span>Rechercher</span>
-          <i class="">*</i>
-        </button>
-      </form>
+    <div id="main">
+      <h1>
+        Trouvez votre h&eacute;bergement pour des vacances de r&ecirc;ve !
+      </h1>
+      <span class="subtitle">En plein centre ville ou en pleine nature</span>
+
+      <!-- search -->
+      <div id="search">
+        <form class="searchBar" action="#" method="GET">
+          <div class="searchLocation">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <input
+            type="search"
+            class="searchInput"
+            placeholder="Marseille, France"
+          />
+          <button class="searchButton" name="Rechercher">
+            <span>Rechercher</span>
+            <i class="fa-solid fa-search"></i>
+          </button>
+        </form>
+      </div>
 
       <!-- filters -->
-      <div class="filters">
-        <div class="textFilter">Filtres</div>
-        
+      <div id="filters">
+        <div class="filtersContainer">
+          <div class="textFilter">Filtres</div>
+          <div class="filter">
+            <div class="iconFilter">
+              <i class="fa-solid fa-money-bill-wave"></i>
+            </div>
+            <span>Économique</span>
+          </div>
+          <div class="filter">
+            <div class="iconFilter">
+              <i class="fa-solid fa-child"></i>
+            </div>
+            <span>Familial</span>
+          </div>
+          <div class="filter">
+            <div class="iconFilter">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <span>Romantique</span>
+          </div>
+          <div class="filter">
+            <div class="iconFilter">
+              <i class="fa-solid fa-dog"></i>
+            </div>
+            <span>Animaux autorisés</span>
+          </div>
+        </div>
+        <p>
+          <i class="fa-solid fa-info"></i
+          ><span>Plus de 500 logements sont disponibles dans cette ville</span>
+        </p>
       </div>
-    </section>
 
-    <!-- Content places-->
-    <section id="mainPlaces">
-      <!-- places -->
-      <div class="mainArticlePlaces">
-        <h2 id="placesAnchor">h&eacute;b&eacute;rgements &agrave; Marseille</h2>
-        <div class="mainTenancy">
-          <a href="">
-            <article class="tenancy">
-              <img
-                src="assets/img/hebergements/4_small/marcus-loke-la-cannebiere.jpg"
-                alt="Photo d'une chambre de l'Auberge La Cannebi&egrave;re"
-              />
-              <div class="tenancyDescription">
-                <h3 class="tenancyName">Auberge La Cannebi&egrave;re</h3>
-                <p>Nuit &agrave; partir de <span class="euro">25&euro;</span></p>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star greyStar"></i>
+      <!-- places content -->
+      <div class="containerPlaces">
+        <section id="mainPlaces">
+          <!-- places -->
+          <div class="mainArticlePlaces">
+            <h2 id="placesAnchor">H&eacute;bergements &agrave; Marseille</h2>
+            <div class="mainTenancy">
+              <a href="#">
+                <article class="tenancy">
+                  <img
+                    src="assets/img/hebergements/4_small/marcus-loke-la-cannebiere.jpg"
+                    alt="Photo d'une chambre de l'Auberge La Cannebi&egrave;re"
+                  />
+                  <div class="tenancyDescription">
+                    <h3 class="tenancyName">Auberge La Cannebi&egrave;re</h3>
+                    <p>
+                      Nuit &agrave; partir de <span class="euro">25&euro;</span>
+                    </p>
+                    <div class="rate">
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+              <a href="#">
+                <article class="tenancy">
+                  <img
+                    src="assets/img/hebergements/4_small/fred-kleber-hotel-du-port.jpg"
+                    alt="Photo d'une chambre de l'H&ocirc;tel du port"
+                  />
+                  <div class="tenancyDescription">
+                    <h3 class="tenancyName">H&ocirc;tel du port</h3>
+                    <p>
+                      Nuit &agrave; partir de <span class="euro">52&euro;</span>
+                    </p>
+                    <div class="rate">
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+              <a href="#">
+                <article class="tenancy">
+                  <img
+                    src="assets/img/hebergements/4_small/reisetopia-hotel-les-mouettes.jpg"
+                    alt="Photo d'une chambre de l'H&ocirc;tel Les Mouettes"
+                  />
+                  <div class="tenancyDescription">
+                    <h3 class="tenancyName">H&ocirc;tel Les Mouettes</h3>
+                    <p>
+                      Nuit &agrave; partir de <span class="euro">76&euro;</span>
+                    </p>
+                    <div class="rate">
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+              <a href="#">
+                <article class="tenancy">
+                  <img
+                    src="assets/img/hebergements/4_small/annie-spratt-hotel-de-la-mer.jpg"
+                    alt="Photo d'une chambre de l'H&ocirc;tel de la mer"
+                  />
+                  <div class="tenancyDescription">
+                    <h3 class="tenancyName">H&ocirc;tel de la mer</h3>
+                    <p>
+                      Nuit &agrave; partir de <span class="euro">46&euro;</span>
+                    </p>
+                    <div class="rate">
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star greyStar"></i>
+                      <i class="fa-solid fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+              <a href="#">
+                <article class="tenancy">
+                  <img
+                    src="assets/img/hebergements/4_small/nicate-lee-auberge-le-panier.jpg"
+                    alt="Photo d'une chambre de l'Auberge Le Panier"
+                  />
+                  <div class="tenancyDescription">
+                    <h3 class="tenancyName">Auberge Le Panier</h3>
+                    <p>
+                      Nuit &agrave; partir de <span class="euro">23&euro;</span>
+                    </p>
+                    <div class="rate">
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+              <a href="#">
+                <article class="tenancy">
+                  <img
+                    src="assets/img/hebergements/4_small/febrian-zakaria-chez-amina.jpg"
+                    alt="Photo d'une chambre de l'H&ocirc;tel Chez Amina"
+                  />
+                  <div class="tenancyDescription">
+                    <h3 class="tenancyName">H&ocirc;tel Chez Amina</h3>
+                    <p>
+                      Nuit &agrave; partir de <span class="euro">96&euro;</span>
+                    </p>
+                    <div class="rate">
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                      <i class="fa-solid fa-star blueStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+            </div>
+          </div>
+          <a class="showMore" href="#">Afficher plus</a>
+        </section>
+
+        <!-- popular -->
+        <section id="mainPopular">
+          <div class="popular">
+            <h2 class="popularTitle">Les plus populaires</h2>
+            <i class="fa-solid fa-star popularIcon"></i>
+          </div>
+          <div class="mainPopularTenancy">
+            <a href="#">
+              <article class="popularTenancy">
+                <img
+                  src="assets/img/hebergements/4_small/emile-guillemot-soleil-du-matin.jpg"
+                  alt="Photo d'une chambre de l'H&ocirc;tel Le soleil du matin"
+                />
+                <div class="popularTenancyDescription">
+                  <div>
+                    <h3 class="popularTenancyName">
+                      H&ocirc;tel Le soleil du matin
+                    </h3>
+                    <p>
+                      Nuit &agrave; partir de
+                      <span class="euro">128&euro;</span>
+                    </p>
+                  </div>
+                  <div class="popularRate">
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
-          <a href="">
-            <article class="tenancy">
-              <img
-                src="assets/img/hebergements/4_small/fred-kleber-hotel-du-port.jpg"
-                alt="Photo d'une chambre de l'H&ocirc;tel du port"
-              />
-              <div class="tenancyDescription">
-                <h3 class="tenancyName">H&ocirc;tel du port</h3>
-                <p>Nuit &agrave; partir de <span class="euro">52&euro;</span></p>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
+              </article>
+            </a>
+            <a href="#">
+              <article class="popularTenancy">
+                <img
+                  src="assets/img/hebergements/4_small/aw-creative-au-coeur-de-l-eau.jpg"
+                  alt="Photo d'une chambre d'h&ocirc;te Au coeur de l'eau"
+                />
+                <div class="popularTenancyDescription">
+                  <div>
+                    <h3 class="tenancyName">
+                      Au coeur de l'eau Chambres d'h&ocirc;tes
+                    </h3>
+                    <p>
+                      Nuit &agrave; partir de <span class="euro">71&euro;</span>
+                    </p>
+                  </div>
+                  <div class="popularRate">
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star greyStar"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
-          <a href="">
-            <article class="tenancy">
-              <img
-                src="assets/img/hebergements/4_small/reisetopia-hotel-les-mouettes.jpg"
-                alt="Photo d'une chambre de l'H&ocirc;tel Les Mouettes"
-              />
-              <div class="tenancyDescription">
-                <h3 class="tenancyName">H&ocirc;tel Les Mouettes</h3>
-                <p>Nuit &agrave; partir de <span class="euro">76&euro;</span></p>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star greyStar"></i>
+              </article>
+            </a>
+            <a href="#">
+              <article class="popularTenancy">
+                <img
+                  src="assets/img/hebergements/4_small/febrian-zakaria-tout-bleu-et-blanc.jpg"
+                  alt="Photo d'une chambre de l'H&ocirc;tel Tout bleu et blanc"
+                />
+                <div class="popularTenancyDescription">
+                  <div>
+                    <h3 class="tenancyName">H&ocirc;tel Tout bleu et blanc</h3>
+                    <p>
+                      Nuit &agrave; partir de <span class="euro">68&euro;</span>
+                    </p>
+                  </div>
+                  <div class="popularRate">
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star blueStar"></i>
+                    <i class="fa-solid fa-star greyStar"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
-        </div>
-        <div class="mainTenancy">
-          <a href="">
-            <article class="tenancy">
-              <img
-                src="assets/img/hebergements/4_small/annie-spratt-hotel-de-la-mer.jpg"
-                alt="Photo d'une chambre de l'H&ocirc;tel de la mer"
-              />
-              <div class="tenancyDescription">
-                <h3 class="tenancyName">H&ocirc;tel de la mer</h3>
-                <p>Nuit &agrave; partir de <span class="euro">46&euro;</span></p>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star greyStar"></i>
-                  <i class="fa-solid fa-star greyStar"></i>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="">
-            <article class="tenancy">
-              <img
-                src="assets/img/hebergements/4_small/nicate-lee-auberge-le-panier.jpg"
-                alt="Photo d'une chambre de l'Auberge Le Panier"
-              />
-              <div class="tenancyDescription">
-                <h3 class="tenancyName">Auberge Le Panier</h3>
-                <p>Nuit &agrave; partir de <span class="euro">23&euro;</span></p>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star greyStar"></i>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="">
-            <article class="tenancy">
-              <img
-                src="assets/img/hebergements/4_small/febrian-zakaria-chez-amina.jpg"
-                alt="Photo d'une chambre de l'H&ocirc;tel Chez Amina"
-              />
-              <div class="tenancyDescription">
-                <h3 class="tenancyName">H&ocirc;tel Chez Amina</h3>
-                <p>Nuit &agrave; partir de <span class="euro">96&euro;</span></p>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                </div>
-              </div>
-            </article>
-          </a>
-        </div>
+              </article>
+            </a>
+          </div>
+        </section>
       </div>
-      
-      <!-- popular -->
-      <div class="mainArticlePopular">
-        <div class="articlePopularIcon">
-        <h2>Les plus populaires</h2>
-        <i class="fa-solid fa-star bluseStar"></i>
-        </div>
-        <div class="mainPopularTenancy">
-          <a href="">
-            <article class="articlePopularTenancy">
-              <img
-                src="assets/img/hebergements/4_small/emile-guillemot-soleil-du-matin.jpg"
-                alt="Photo d'une chambre de l'H&ocirc;tel Le soleil du matin">
-              <div class="popularTenancyDescription">
-                <div>
-                  <h3 class="tenancyName">H&ocirc;tel Le soleil du matin</h3>
-                  <p>Nuit &agrave; partir de <span class="euro">128&euro;</span></p>
-                </div>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="">
-            <article class="articlePopularTenancy">
-              <img 
-                src="assets/img/hebergements/4_small/aw-creative-au-coeur-de-l-eau.jpg"
-                alt="Photo d'une chambre d'h&ocirc;te Au coeur de l'eau"
-              >
-              <div class="popularTenancyDescription">
-                <div>
-                  <h3 class="tenancyName">Au coeur de l'eau Chambres d'h&ocirc;tes</h3>
-                  <p>Nuit &agrave; partir de <span class="euro">71&euro;</span></p>
-                </div>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star greyStar"></i>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="">
-            <article class="articlePopularTenancy">
-              <img
-                src="assets/img/hebergements/4_small/febrian-zakaria-tout-bleu-et-blanc.jpg"
-                alt="Photo d'une chambre de l'H&ocirc;tel Tout bleu et blanc"
-              >
-              <div class="popularTenancyDescription">
-                <div>
-                  <h3 class="tenancyName">H&ocirc;tel Tout bleu et blanc</h3>
-                  <p>Nuit &agrave; partir de <span class="euro">68&euro;</span></p>
-                </div>
-                <div class="rate">
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star bluseStar"></i>
-                  <i class="fa-solid fa-star greyStar"></i>
-                </div>
-              </div>
-            </article>
-          </a>
-        </div>
-      </div>
-    </section>
 
-    <!-- activities-->
-    <section id="activities">
-      <h2 id="activitiesAnchor">Activités à Marseille</h2>
-
-    </section>
+      <!-- activities -->
+      <section id="activities">
+        <h2 id="activitiesAnchor">Activités à Marseille</h2>
+        <div class="mainActivities">
+          <!-- column 1 -->
+          <div class="activityCardLarge">
+            <img
+              src="assets/img/activites/4_small/reno-laithienne-vieux-port.jpg"
+              alt="Vieux Port"
+            />
+            <h3 class="activityTitle">Vieux Port</h3>
+          </div>
+          <!-- column 2 -->
+          <div class="activitiesCol">
+            <div class="activityCardSmall">
+              <img
+                src="assets/img/activites/4_small/paul-hermann-fort-de-pomegue.jpg"
+                alt="Port de Pom&egrave;gues"
+              />
+              <h3 class="activityTitle">Port de Pom&egrave;gues</h3>
+            </div>
+            <div class="activityCardSmall">
+              <img
+                src="assets/img/activites/4_small/kevin-hikari-iles-du-friout.jpg"
+                alt="&Icirc;les du Friout"
+              />
+              <h3 class="activityTitle">&Icirc;les du Friout</h3>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="activityCardLarge">
+            <img
+              src="assets/img/activites/4_small/kilyan-sockalingum-parc-national-des-calanques.jpg"
+              alt="Parc Nationnal des Calanques"
+            />
+            <h3 class="activityTitle">Parc Nationnal des Calanques</h3>
+          </div>
+          <!-- column 4 -->
+          <div class="activitiesCol">
+            <div class="activityCardSmall">
+              <img
+                src="assets/img/activites/4_small/florian-wehde-notre-dame-de-la-garde.jpg"
+                alt="Notre-Dame-de-la-Garde"
+              />
+              <h3 class="activityTitle">Notre-Dame-de-la-Garde</h3>
+            </div>
+            <div class="activityCardSmall">
+              <img
+                src="assets/img/activites/4_small/lena-paulin-parc-longchamp.jpg"
+                alt="Parc Longchamp"
+              />
+              <h3 class="activityTitle">Parc Longchamp</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <!-- Footer -->
-    <section id="footer">
+    <footer id="footer">
       <!-- Column 1 -->
-      <div>
+      <div class="footerCol">
         <h4>A propos</h4>
         <ul>
           <li>
@@ -277,7 +415,7 @@
         </ul>
       </div>
       <!-- Column 2 -->
-      <div>
+      <div class="footerCol">
         <h4>Nos H&eacute;b&eacute;rgements</h4>
         <ul>
           <li>
@@ -291,13 +429,13 @@
         </ul>
       </div>
       <!-- Column 3 -->
-      <div>
+      <div class="footerCol">
         <h4>Assistance</h4>
         <ul>
           <li><a href="#" title="Centre d'aide">Centre d'aide</a></li>
           <li><a href="#" title="Nous contacter">Nous contacter</a></li>
         </ul>
       </div>
-    </section>
+    </footer>
   </body>
 </html>

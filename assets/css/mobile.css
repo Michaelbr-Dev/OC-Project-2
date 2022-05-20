@@ -1,0 +1,164 @@
+/* Mobile */
+body {
+  max-width: 768px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#logo {
+  margin: auto;
+  padding: 25px 0 0 0;
+}
+
+/* nav */
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+nav li {
+  width: 50%;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #f2f2f2;
+}
+
+nav li a:hover {
+  border-top: none;
+}
+
+nav li:hover {
+  border-bottom-color: #0065fc;
+}
+
+/*search */
+#search {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.searchButton {
+  width: 50px;
+}
+
+.searchButton span {
+  display: none;
+}
+
+.searchButton i {
+  display: contents;
+}
+
+/* filters */
+.filtersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.textFilter {
+  align-self: flex-start;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.filter {
+  width: 260px;
+}
+
+/* places */
+.containerPlaces {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+#mainPlaces {
+  width: 100%;
+}
+
+.mainTenancy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainTenancy a {
+  width: 100%;
+}
+
+.tenancy {
+  width: auto;
+}
+
+/* popular */
+#mainPopular {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* activities */
+#activitiesAnchor {
+  margin: 30px 0 0 0;
+}
+
+.mainActivities {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.activityCardLarge {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.activitiesCol {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.activityCardSmall {
+  width: 100%;
+}
+
+.activityCardLarge img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.activityCardSmall img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* footer */
+#footer {
+  display: flex;
+  flex-direction: column;
+}
