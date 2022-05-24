@@ -226,7 +226,7 @@ nav li a:focus {
 #mainPlaces {
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 68%;
   background-color: #f2f2f2;
   border-radius: 20px;
   padding: 0;
@@ -268,7 +268,7 @@ nav li a:focus {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 1px 1px 10px #ccc;
-  margin: 20px;
+  margin: 10px;
 }
 
 .tenancyDescription {
