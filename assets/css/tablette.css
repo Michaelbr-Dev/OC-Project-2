@@ -13,9 +13,19 @@ body {
 /* places */
 #mainPlaces,
 #mainPopular {
-  width: 50%;
+  width: 95%;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
+.containerPlaces {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/*Popular */
+.mainPopular {
+}
 /* activities */
 .mainActivities {
   flex-wrap: wrap;
@@ -23,9 +33,9 @@ body {
 }
 
 .activityCardLarge {
-  width: 40%;
+  width: 45%;
 }
 
 .activitiesCol {
-  width: 40%;
+  width: 45%;
 }
