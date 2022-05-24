@@ -58,6 +58,10 @@ nav li:hover {
   margin: auto;
 }
 
+.searchInput {
+  width: 200px;
+}
+
 .searchButton {
   width: 50px;
 }
