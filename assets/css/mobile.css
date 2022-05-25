@@ -1,7 +1,7 @@
 /* Mobile */
 body {
   max-width: 768px;
-  margin: 0;
+  margin: auto;
   padding: 0 20px;
 }
 
@@ -121,6 +121,10 @@ nav li:hover {
 #mainPopular {
   width: 100%;
   margin-bottom: 20px;
+}
+
+.popularTenancy img{
+  width: 40%;
 }
 
 /* activities */
