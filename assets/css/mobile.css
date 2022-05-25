@@ -2,7 +2,7 @@
 body {
   max-width: 768px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 /* main */
@@ -59,7 +59,7 @@ nav li:hover {
 }
 
 .searchInput {
-  width: 200px;
+  width: 80%;
 }
 
 .searchButton {
@@ -77,18 +77,22 @@ nav li:hover {
 /* filters */
 .filtersContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: left;
+  flex-direction: row;
+  width: 100%;
+  font-size: 20px;
 }
 
 .textFilter {
   align-self: flex-start;
-  margin-left: 30px;
-  margin-bottom: 10px;
+  padding: 0 70% 10px 10px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .filter {
-  width: 260px;
+  padding-left: 0;
+  padding-right: 15px;
+  margin-left: 0;
 }
 
 /* places */
@@ -121,9 +125,10 @@ nav li:hover {
 #mainPopular {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 0;
 }
 
-.popularTenancy img{
+.popularTenancy img {
   width: 40%;
 }
 
@@ -170,4 +175,9 @@ nav li:hover {
 #footer {
   display: flex;
   flex-direction: column;
+  padding-left: 15px;
+}
+
+.footerCol {
+  width: 100%;
 }

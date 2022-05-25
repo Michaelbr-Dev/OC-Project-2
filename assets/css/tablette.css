@@ -10,6 +10,17 @@ body {
   flex-wrap: wrap;
 }
 
+.textFilter {
+  align-self: flex-start;
+  padding: 0 70% 10px 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.filter {
+  margin: 0;
+}
+
 /* places */
 #mainPlaces,
 #mainPopular {
@@ -24,8 +35,7 @@ body {
 }
 
 /*Popular */
-.mainPopular {
-}
+
 /* activities */
 .mainActivities {
   flex-wrap: wrap;
@@ -38,4 +48,9 @@ body {
 
 .activitiesCol {
   width: 45%;
+}
+
+/* Footer */
+#footer {
+  justify-content: space-between;
 }
