@@ -308,9 +308,9 @@ nav li a:focus {
 }
 
 .showMore {
-  margin: 10px 30px 20px 35px;
+  margin: 10px 30px 30px 35px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   color: black;
   text-decoration: none;
 }
