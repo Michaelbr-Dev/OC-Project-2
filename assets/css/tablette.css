@@ -27,7 +27,7 @@ body {
 /* places */
 #mainPlaces,
 #mainPopular {
-  width: 95%;
+  width: 100%;
   padding: 0;
   margin-bottom: 20px;
 }
@@ -35,6 +35,18 @@ body {
 .containerPlaces {
   display: flex;
   flex-direction: column-reverse;
+}
+
+.mainArticlePlaces {
+  width: 100%;
+}
+
+.tenancyName {
+  font-size: 17px;
+}
+
+.tenancyDescription p {
+  font-size: 16px;
 }
 
 /*Popular */
