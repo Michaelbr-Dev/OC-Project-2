@@ -1,6 +1,9 @@
 /* Tablet */
 body {
   max-width: 992px;
+}
+
+.mainPage {
   margin: auto;
   padding: 0 20px;
 }
@@ -51,6 +54,9 @@ body {
 }
 
 /* Footer */
-#footer {
-  justify-content: space-between;
+
+.mainFooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

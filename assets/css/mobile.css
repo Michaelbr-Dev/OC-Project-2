@@ -1,6 +1,9 @@
 /* Mobile */
 body {
   max-width: 768px;
+}
+
+.mainPage {
   margin: auto;
   padding: 0 10px;
 }
@@ -44,6 +47,13 @@ nav li a:hover {
 
 nav li:hover {
   border-bottom-color: #0065fc;
+}
+
+nav li a:focus {
+  padding-bottom: 15px;
+  color: #0065fc;
+  border-bottom: 3px solid #0065fc;
+  border-top: none;
 }
 
 /*search */
@@ -172,7 +182,7 @@ nav li:hover {
 }
 
 /* footer */
-#footer {
+.mainFooter {
   display: flex;
   flex-direction: column;
   padding-left: 15px;

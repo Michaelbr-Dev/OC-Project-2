@@ -5,10 +5,15 @@
 /* General */
 body {
   font-family: Raleway;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.mainPage {
   max-width: 1440px;
   margin: auto;
   padding: 0px 50px;
-  font-size: 18px;
 }
 
 h1 {
@@ -453,12 +458,17 @@ nav li a:focus {
 /* Footer */
 
 #footer {
-  display: flex;
+  width: 100%;
   background-color: #f2f2f2;
   margin: 40px 0;
-  padding-left: 30px;
 }
 
+.mainFooter {
+  display: flex;
+  max-width: 1440px;
+  padding-left: 30px;
+  margin: auto;
+}
 .footerCol {
   width: 30%;
 }
