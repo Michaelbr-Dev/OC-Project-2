@@ -4,16 +4,24 @@ body {
 }
 
 .mainPage {
-  margin: auto;
-  padding: 0 10px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 /* main */
-main {
+#main {
   display: flex;
   flex-direction: column;
 }
 
+#main h1 {
+  margin-left: 10px;
+}
+
+#main span {
+  margin-left: 10px;
+}
 /* header*/
 header {
   display: flex;
@@ -85,6 +93,10 @@ nav li a:focus {
 }
 
 /* filters */
+#filters {
+  margin-left: 10px;
+}
+
 .filtersContainer {
   display: flex;
   flex-direction: row;
@@ -100,9 +112,7 @@ nav li a:focus {
 }
 
 .filter {
-  padding-left: 0;
-  padding-right: 15px;
-  margin-left: 0;
+  margin: 5px 15px 5px 0;
 }
 
 /* places */
@@ -143,6 +153,10 @@ nav li a:focus {
 }
 
 /* activities */
+#activities {
+  margin: 0 10px;
+}
+
 #activitiesAnchor {
   margin: 30px 0 0 0;
 }
