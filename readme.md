@@ -2,7 +2,7 @@
 Deuxième projet du parcours développeur web chez OpenClassrooms.
 L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé "Booki" (voir l'image ci-dessous).
 
-![maquette web Booki](./img/github/desktop.png)
+![maquette web Booki](https://github.com/Michaelbr-Dev/OCR-Project-2/blob/main/images/github/desktop-gh.png)
 
 ## Éléments fournis par l'entreprise virtuelle.
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
