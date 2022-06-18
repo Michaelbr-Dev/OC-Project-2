@@ -8,7 +8,7 @@ L'objectif est d'intégrer la maquette d'un site de planification de vacance nom
 
 ## Technologies
 
-- [![Made-with-HTML](https://img.shields.io/badge/Made%20with-HTML-red)](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [![Made-with-HTML](https://img.shields.io/badge/Made%20with-HTML-orange)](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [![Made-with-CSS](https://img.shields.io/badge/Made%20with-CSS-darkviolet)](https://developer.mozilla.org/fr/docs/Web/CSS)
 
 ## Maquette 
