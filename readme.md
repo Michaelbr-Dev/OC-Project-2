@@ -8,8 +8,8 @@ L'objectif est d'intégrer la maquette d'un site de planification de vacance nom
 
 ## Technologies
 
-- [![Made-with-HTML](https://img.shields.io/badge/Made%20with-HTML-darkorange)](https://developer.mozilla.org/fr/docs/Web/HTML)
-- [![Made-with-CSS](https://img.shields.io/badge/Made%20with-CSS-darkviolet)](https://developer.mozilla.org/fr/docs/Web/CSS)
+- [![Made-with-HTML](https://img.shields.io/badge/Made%20with-HTML-#e34c26)](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [![Made-with-CSS](https://img.shields.io/badge/Made%20with-CSS-#563d7c)](https://developer.mozilla.org/fr/docs/Web/CSS)
 
 ## Maquette 
 ![maquette web Booki](https://github.com/Michaelbr-Dev/OCR-Project-2/blob/main/images/github/desktop-gh.png)
