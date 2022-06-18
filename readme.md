@@ -1,5 +1,6 @@
 # Booki
 Projet 2 - Transformez une maquette en site web avec HTML & CSS
+
 L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé "Booki".
 
 ## Author 
