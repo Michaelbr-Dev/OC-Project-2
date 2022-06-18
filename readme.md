@@ -1,7 +1,17 @@
 # Booki
-Deuxième projet du parcours développeur web chez OpenClassrooms.
-L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé "Booki" (voir l'image ci-dessous).
+> Projet 2 - Transformez une maquette en site web avec HTML & CSS
+L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé "Booki".
 
+## Author 
+
+- Michael Briquet
+
+## Technologies
+
+- [![Made-with-HTML](https://img.shields.io/badge/Made%20with-HTML-red)](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [![Made-with-CSS](https://img.shields.io/badge/Made%20with-CSS-darkviolet)](https://developer.mozilla.org/fr/docs/Web/CSS)
+
+## Maquette 
 ![maquette web Booki](https://github.com/Michaelbr-Dev/OCR-Project-2/blob/main/images/github/desktop-gh.png)
 
 ## Éléments fournis par l'entreprise virtuelle.
