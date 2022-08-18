@@ -39,4 +39,4 @@ L'objectif est d'intégrer la maquette d'un site de planification de vacance nom
 - L'integration est faite sur l'éditeur Visual Studio Code avec les plugins [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), Le thème, l'UI et les raccourcis clavier sont personnalisés.
 
 ## Visualiser le site
-- [Projet 2 - Booki](https://michaelbr-dev.github.io/OCR-Project-2/)
+- [Projet 2 - Booki](https://michaelbr-dev.github.io/OC-Project-2/)
